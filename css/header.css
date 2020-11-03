@@ -64,11 +64,8 @@
 }
 
 .header_home {
-	background-image: url('../images/header_picture.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 620px;
+	background: center / cover no-repeat url('/images/header_picture.jpg');
+	width: 100%;
 	z-index: 1;
 }
 
@@ -115,7 +112,7 @@
 
 .navbar a:hover,
 .page_navbar a:hover {
-	background-color: #F28B01;
+	background-color: #e1d5d577;
 	color: #fff;
 }
 
@@ -247,6 +244,14 @@ a:hover{
 	transform: none;
 	opacity: 1;
 }
+
+/* h1 {
+	color: white;
+	font-size: 12px;
+	margin-top: 550px;
+	margin-right: 80px;
+	text-transform: uppercase;
+} */
 
 @media screen and (max-width: 190px){
 	.header_home{
