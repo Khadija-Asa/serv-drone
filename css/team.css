@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  font-size: 14px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.gold {
+  color: #F28B01;
+}
+
+.background-gold {
+  background-color: #F28B01;
+  color: white;
+}
+
+.team1,
+.team2,
+.team3 {
+  border-radius: 220px;
+  padding: 30px;
+}
+
+h3 {
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.drone1,
+.drone2,
+.drone3 {
+  background-color: #B9CDF0;
+  border-radius: 3%;
+  margin: 80px;
+}
+
+.image-drone1,
+.image-drone2,
+.image-drone3 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    font-size: 16px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  
+  h2 {
+    padding-top: 55px;
+  }
+  .team1,
+  .team2,
+  .team3 {
+    padding: 60px;
+  }
+  h3 {
+    font-size: 25px;
+    padding-top: 40px;
+  }
+  .drone1,
+  .drone2,
+  .drone3 {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main {
+    font-size: 20px;
+    padding: 30px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 25px;
+    padding-top: 40px;
+  }
+  .drone1 {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+  .drone2 {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  .drone3 {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .image-drone1,
+  .image-drone2,
+  .image-drone3 {
+    height: 150px;
+    width: 250px;
+  }
+}
+
