@@ -15,7 +15,7 @@
 }
 
 .button_list li {
-	background-color: #62D3A4;
+	background-color: black;
 	border: 2px solid #67328D;
 	border-radius: 25px;
 	padding: 2% 5%;
@@ -25,7 +25,7 @@
 }
 
 .button_list li a {
-	color: #67328D;
+	color: #F28B01;
 }
 
 .dropdown {
@@ -33,7 +33,7 @@
 }
 
 .dropdown_content {
-	background-color:#F28B01;
+	background-color:rgb(87, 87, 87);
 	display: none;
 	flex-direction: column;
 	list-style-type: none;
@@ -49,8 +49,9 @@
 }
 
 .dropdown_content a:hover{
-	background-color: #62D3A4;
+	background-color: rgb(87, 87, 87);
 	padding: 5% 25%;
+	color: #fff;
 	
 }
 
@@ -252,3 +253,28 @@ a:hover{
 	transform: none;
 	opacity: 1;
 }
+
+@media screen and (max-width: 190px){
+	.header_home{
+		height: ;
+	}
+}
+
+@media screen and (max-width: 1360px){
+	.header_home{
+		height: 710px;
+	}
+}
+
+@media screen and (min-width: 1275px){
+	.navbar_burger{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1274px){
+	.navbar{
+		display: none;
+	}
+}
+
