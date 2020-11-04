@@ -4,3 +4,40 @@
 	margin: 0;
 	padding: 0;
 }
+
+
+section {
+	width: 90%;
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	font-size: 24px;
+	text-indent: 40px;
+}
+
+span {
+	color: #F28B01;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.container > * {
+	width: 100%;
+}
+
+.container > .text_right {
+	margin-right: 200px;
+}
+
+.container > .text_left {
+	margin-left: 200px;
+}
