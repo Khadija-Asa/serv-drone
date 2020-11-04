@@ -4,15 +4,17 @@
   text-align: center;
 }
 
-.mentions {
-  
-}
-
 .social-media {
-  font-size: 40px;
+  font-size: 25px;
 }
 
-.copyright {
-
+@media only screen and (min-width: 768px) {
+  .bottom-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  .social-media {
+    font-size: 35px;
+  }
 }
-
