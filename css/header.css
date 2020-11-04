@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -15,7 +15,7 @@
 }
 
 .button_list li {
-	background-color: #62D3A4;
+	background-color: black;
 	border: 2px solid #67328D;
 	border-radius: 25px;
 	padding: 2% 5%;
@@ -25,7 +25,7 @@
 }
 
 .button_list li a {
-	color: #67328D;
+	color: #F28B01;
 }
 
 .dropdown {
@@ -33,7 +33,7 @@
 }
 
 .dropdown_content {
-	background-color:#F28B01;
+	background-color:rgb(87, 87, 87);
 	display: none;
 	flex-direction: column;
 	list-style-type: none;
@@ -49,9 +49,9 @@
 }
 
 .dropdown_content a:hover{
-	background-color: #62D3A4;
+	background-color: rgb(87, 87, 87);
 	padding: 5% 25%;
-	
+	color: #fff;
 }
 
 .dropdown:hover .dropdown_content{
@@ -64,11 +64,8 @@
 }
 
 .header_home {
-	background-image: url('../images/header_picture.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 620px;
+	background: center / cover no-repeat url('/images/header_picture.jpg');
+	width: 100%;
 	z-index: 1;
 }
 
@@ -115,7 +112,7 @@
 
 .navbar a:hover,
 .page_navbar a:hover {
-	background-color: #F28B01;
+	background-color: #e1d5d577;
 	color: #fff;
 }
 
@@ -184,7 +181,6 @@ a:hover{
 	-webkit-touch-callout: none;
 }
 
-
 #menuToggle span{
 	display: block;
 	width: 33px;
@@ -208,25 +204,21 @@ a:hover{
 	transform-origin: 0% 100%;
 }
 
-
 #menuToggle input:checked ~ span{
 	opacity: 1;
 	transform: rotate(45deg) translate(-2px, -1px);
 	background: #232323;
 }
 
-
 #menuToggle input:checked ~ span:nth-last-child(3){
 	opacity: 0;
 	transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-
 #menuToggle input:checked ~ span:nth-last-child(2){
 	opacity: 1;
 	transform: rotate(-45deg) translate(0, -1px);
 }
-
 
 #menu{
 	position: absolute;
@@ -235,7 +227,7 @@ a:hover{
 	padding: 50px;
 	padding-top: 125px;
 	right: -100px;
-	background: #ededed;
+	background: #e1d5d577;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	transform-origin: 0% 0%;
@@ -252,3 +244,36 @@ a:hover{
 	transform: none;
 	opacity: 1;
 }
+
+/* h1 {
+	color: white;
+	font-size: 12px;
+	margin-top: 550px;
+	margin-right: 80px;
+	text-transform: uppercase;
+} */
+
+@media screen and (max-width: 190px){
+	.header_home{
+		height: ;
+	}
+}
+
+@media screen and (max-width: 1360px){
+	.header_home{
+		height: 710px;
+	}
+}
+
+@media screen and (min-width: 1275px){
+	.navbar_burger{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1274px){
+	.navbar{
+		display: none;
+	}
+}
+

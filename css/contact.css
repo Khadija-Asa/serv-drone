@@ -1,0 +1,78 @@
+* {
+  margin: auto;
+  font-family: 'Libre Franklin';
+} 
+
+.big {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  border-radius: 7px;
+  margin: 15px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 18px;
+  padding-top: 35px;;
+  text-align: center;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.523);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  opacity: 88%;
+  padding: 50px;
+}
+
+.gold {
+  background-color: #F28B01;
+  color: white;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+  .header-image {
+    height: 500px;
+  }
+  .container {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 30px;
+  }
+  .header-image {
+    height: 700px;;
+  }
+  .container {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .container {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+}
