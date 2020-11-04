@@ -7,6 +7,13 @@ main {
   text-align: center;
 }
 
+.header_home-team {
+	background: center / cover no-repeat url(/images/drone_blue.jpg);
+	width: 100%;
+	z-index: 1;
+  height: 650px;
+}
+
 .title {
   text-align: center;
 }
