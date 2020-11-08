@@ -7,6 +7,10 @@ main {
   line-height: 25px;
 }
 
+header {
+	background: center / cover no-repeat url('/images/Header.png');
+}
+
 .presentation,
 .product-one,
 .product-two,
@@ -18,6 +22,9 @@ main {
 }
 
 .presentation img {
+  border-radius: 5px;
+  padding-bottom: 25px;
+  padding-top: 20px;
   width: 90%;
 }
 
@@ -26,7 +33,7 @@ main {
 }
 
 .title {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 30px;
   padding: 20px 0 20px 33px;
 }
@@ -133,10 +140,14 @@ h2 {
   }
   .presentation {
   display: flex;
+  padding: 100px 20px 50px 50px;
   }
   .presentation img {
-  width: 150%;
-  padding-right: 50px;
+  width: 200%;
+  padding-right: 45px;
+  }
+  .title {
+  padding-left: 55px;
   }
   .vertical-line-one {
   height: 160px;
