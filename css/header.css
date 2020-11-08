@@ -244,13 +244,13 @@ a:hover{
 	opacity: 1;
 }
 
-/* h1 {
+h1 {
 	color: white;
 	font-size: 12px;
 	margin-top: 550px;
 	margin-right: 80px;
 	text-transform: uppercase;
-} */
+}
 
 @media screen and (max-width: 190px){
 	.header_home{
