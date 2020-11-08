@@ -89,12 +89,11 @@
 }
 
 .navbar {
-	align-items: flex-end;
+	align-items: center;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
 	list-style-type: none;
-	margin-top: 2%;
 	width: 70%;
 }
 
