@@ -49,13 +49,24 @@ h3 {
   text-align: center;
 }
 
-.image {
+.images {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	overflow: hidden
 }
 
 .team {
 	padding: 30px;
+}
+
+.team:first-child {	
+	transition-duration: 1s;
+	margin-right: 100%;
+}
+
+.team:last-child {
+	transition-duration: 1s;
+	margin-left: 100%;
 }
 
 .partners {
@@ -69,6 +80,10 @@ h3 {
   border-radius: 3%;
   box-shadow: 2px 5px 4px #AAAAAA;
 	margin: 80px;
+}
+
+.drone:hover {
+    box-shadow: 10px 10px 4px #AAAAAA
 }
 
 .image-drone {
