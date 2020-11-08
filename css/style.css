@@ -1,178 +1,172 @@
 * {
-    font-family: 'Franklin Gothic';
-}
-p{
-     font-size: 20px;
- }
-.presentation span{
-    color: #F28B01;
+  font-family: 'Franklin Gothic';
 }
 
-.presentation img{
-    width: 35%;
-    margin-top: 5%;
+main {
+  background-color: #FFF7ED;
+  line-height: 25px;
 }
 
-.presentation p{
-    width: 55%;
-    margin-top: 10%;
-    text-align: justify;
-}
-.presentation{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.bar_home{
-    width: 70%;
-    background-color: #F28B01;
-    height: 5px;
-    display: flex;
-    margin-left: 15%;
-    margin-top: 5%;
+.presentation,
+.product-one,
+.product-two,
+.product-three {
+  background-color: rgba(255, 255, 255, 0.69);
+  border-radius: 5px;
+  margin: 15px;
+  padding: 20px 20px 0 20px;
 }
 
-.drone_adopte_home h2{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
+.presentation img {
+  width: 90%;
 }
 
-.drone_adopte_home span{
-    color: #F28B01;
+.presentation-title {
+  font-size: 20px;
 }
 
-.drone_adopte_home p{
-    display: flex;
-    justify-content: center; 
+.title {
+  font-size: 10px;
+  line-height: 30px;
+  padding: 20px 0 20px 33px;
 }
 
-/* Product gamme class 1 */
-
-.title_product_class_1 {
-    background-color: #F28B01;
-    width: 20%;
-    text-align: center;
-    color: #fff;
-    margin: 5% 0% 0% 5%;
+.picture_class_one img,
+.picture_gamme_plus img,
+.picture_gamme_deluxe img {
+  width: 100%;
+  padding: 0 20px 0 20px;
+  height: 190px;
 }
 
-.product_class_1{
-    width: 50%;
-    margin: 5% 0% 0% 5%;
-    text-align: justify;
+ul {
+  list-style-type: square;
+  padding-left: 16px;
 }
 
-.picture_class_1{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
+.no_square {
+  list-style: none;
 }
 
-.picture_class_1 img{
-    width: 50%;   
+span {
+  color: #F28B01;
 }
 
-/* Product gamme plus */
-
-.title_product_plus{
-    background-color: #F28B01;
-    width: 17%;
-    text-align: center;
-    color: #fff;
-    margin: 5% 0% 0% 5%; 
+.gold {
+  background-color: #F28B01;
+  color: white;
+  text-transform: uppercase;
 }
 
-
-.product_plus{
-    width: 50%;
-    margin: 5% 0% 0% 5%;
-    text-align: justify;
+.plus {
+  color: #F28B01;
+  font-size: 30px;
 }
 
-.picture_gamme_plus{
-    display: flex;
-    justify-content: center
+h2 {
+  padding: 0 20px 20px 0;
 }
 
-.picture_gamme_plus img{
-    width: 50%;  
+.vertical-line-one {
+  border-left: 3px solid #F28B01;
+  display: inline-block;
+  position: absolute;
+  height: 200px;
+  margin-top: 80px;
+  margin-left: 20px;
 }
 
-.title_product_deluxe{
-    background-color: #F28B01;
-    width: 20%;
-    text-align: center;
-    color: #fff;
-    margin: 5% 0% 0% 5%;
+.vertical-line-two {
+  border-left: 3px solid #F28B01;
+  display: inline-block;
+  position: absolute;
+  height: 250px;
+  margin-top: 95px;
+  margin-left: 20px;
 }
 
-.product_deluxe{
-    width: 50%;
-    margin: 5% 0% 0% 5%;
-    text-align: justify;
+.vertical-line-three {
+  border-left: 3px solid #F28B01;
+  display: inline-block;
+  position: absolute;
+  height: 230px;
+  margin-top: 95px;
+  margin-left: 20px;
 }
 
-.picture_gamme_deluxe{
-    display: flex;
-    justify-content: center
+@media only screen and (min-width: 768px) {
+  main {
+  font-size: 20px;
+  }
+  .presentation img {
+  width: 70%;
+  }
+  .vertical-line-one {
+  height: 130px;
+  margin-top: 90px;
+  }
+  .vertical-line-two {
+  height: 180px;
+  margin-top: 93px;
+  }
+  .vertical-line-three {
+  height: 155px;
+  margin-top: 95px;
+  }
+  .picture_class_one img,
+  .picture_gamme_plus img,
+  .picture_gamme_deluxe img {
+  width: 100%;
+  padding: 0 20px 0 20px;
+  height: 400px;
+  }
+  .title {
+  font-size: 15px;
+  line-height: 30px;
+  padding: 20px 0 20px 33px;
+  }
 }
 
-.picture_gamme_deluxe img{
-    width: 30%;
+@media only screen and (min-width: 992px) {
+  main {
+  font-size: 20px;
+  }
+  .presentation {
+  display: flex;
+  }
+  .presentation img {
+  width: 150%;
+  padding-right: 50px;
+  }
+  .vertical-line-one {
+  height: 160px;
+  margin-top: 120px;
+  margin-left: 55px;
+  }
+  .vertical-line-two {
+  height: 210px;
+  margin-top: 120px;
+  margin-left: 55px;
+  }
+  .vertical-line-three {
+  height: 210px;
+  margin-top: 120px;
+  margin-left: 55px;
+  }
+  .picture_class_one img,
+  .picture_gamme_plus img,
+  .picture_gamme_deluxe img {
+   height: 400px;
+   padding: 0 20px 0 50px;
+   width: 60%;
+  }
+  .product-one,
+  .product-two,
+  .product-three {
+  margin: 45px;
+  padding: 20px 20px 0 20px;
+  }
+  ul {
+  padding-left: 30px;
+  }
 }
-
-@media screen and (max-width: 980px){
-    p{
-        font-size: 15px;
-    }
-
-    h2{
-        font-size: 20px;
-    }
-
-    .presentation{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .presentation img{
-        margin-left: 32.5%;
-    }
-
-    .presentation p{
-        margin-left: 22.5%;
-    }
-
-    .title_product_deluxe h2,
-    .title_product_plus h2,
-    .title_product_class_1 h2{
-      font-size: 20px;
-    }
-
-    .product_deluxe p,
-    .product_plus p,
-    .product_class_1 p{
-      width: 50%;
-    }
-
-    .product_deluxe ,
-    .product_plus ,
-    .product_class_1 {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin: 0px;
-    }
-}
-
-@media screen and (max-width: 680px){
-    
-    .drone_adopte_home h2{
-        font-size: 20px;
-    }
-}
-
-
-

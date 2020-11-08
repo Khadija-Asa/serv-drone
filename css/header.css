@@ -64,9 +64,9 @@
 }
 
 .header_home {
-	background: center / cover no-repeat url('/images/header_picture.jpg');
 	width: 100%;
 	z-index: 1;
+	height: 700px;
 }
 
 .nav_home {
