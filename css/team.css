@@ -7,13 +7,14 @@
 header {
 	background: center / cover no-repeat url('../images/service_three_ship.png');
 }
+
 main {
 	font-size: 14px;
 	text-align: center;
 }
 
 section {
-	background-color: #B9CDF0;
+	background-color: #FFF7ED;
 }
 
 h1 {
@@ -32,7 +33,7 @@ h3 {
 }
 
 .title {
-	padding-top: 2%;
+	padding: 4% 0;
 	text-align: center;
 }
 
@@ -43,7 +44,9 @@ h3 {
 .background-gold {
 	background-color: #F28B01;
 	color: white;
-	padding: 1% 2%;
+  padding: 3% 0;
+  width: 100%;
+  text-align: center;
 }
 
 .image {
@@ -52,19 +55,19 @@ h3 {
 }
 
 .team {
-	/* border-radius: 220px; */
 	padding: 30px;
 }
 
 .partners {
-	background-color: #B9CDF0;
+	background-color: #FFF7ED;
 	display: flex;
 	flex-direction: column;
 }
 
 .drone {
 	background-color: #FFFFFF;
-	border-radius: 3%;
+  border-radius: 3%;
+  box-shadow: 2px 5px 4px #AAAAAA;
 	margin: 80px;
 }
 
@@ -82,7 +85,6 @@ h3 {
 @media only screen and (min-width: 600px) {
 	main {
 		font-size: 16px;
-		/* padding: 20px; */
 	}
 
 	h1 {
@@ -101,17 +103,11 @@ h3 {
 	.team {
 		padding: 40px;
 	}
-
-	/* .drone {
-		margin-left: 90px;
-		margin-right: 90px;
-	} */
 }
 
 @media only screen and (min-width: 992px) {
 	main {
 		font-size: 20px;
-		/* padding: 30px; */
 	}
 
 	h1 {
