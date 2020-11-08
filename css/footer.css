@@ -1,20 +1,61 @@
 /*footer*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .bottom-page {
   text-align: center;
 }
 
 .social-media {
+  background-color: rgba(242, 139, 1, 0.9);
   font-size: 25px;
+  padding: 2px;
+  text-align: center;
+}
+
+.newsletter{
+  padding: 30px;
 }
 
 @media only screen and (min-width: 768px) {
-  .bottom-page {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  footer {
+    font-size: 25px;
   }
   .social-media {
-    font-size: 35px;
+    font-size: 45px;
+  }
+  .line2 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+  }
+  .copyright {
+    margin-left: 25px;  
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  footer {
+    font-size: 30px;
+  }
+  .social-media {
+    font-size: 55px;
+  }
+  button {
+    font-size: 20px;
+  }
+  button:hover {
+    background-color: rgba(242, 139, 1, 0.9);
+    color: white;
+  }
+  .line2 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+  }
+  .copyright {
+    margin-left: 300px;  
   }
 }
