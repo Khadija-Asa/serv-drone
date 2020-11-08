@@ -38,10 +38,11 @@
 
 @media only screen and (min-width: 992px) {
   footer {
-    font-size: 30px;
+    font-size: 20px;
+    padding-top: 60px; 
   }
   .social-media {
-    font-size: 55px;
+    font-size: 30px;
   }
   button {
     font-size: 20px;
@@ -56,6 +57,7 @@
     padding: 20px;
   }
   .copyright {
-    margin-left: 300px;  
+    font-size: 10px;
+    margin-left: 350px; 
   }
 }
