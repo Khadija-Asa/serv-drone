@@ -4,7 +4,7 @@
 }
 
 .header_home-contact {
-	background: center / cover no-repeat url(/images/service_drone.jpg);
+	background: center / cover no-repeat url('../images/service_drone.jpg');
 	width: 100%;
 	z-index: 1;
   height: 650px;
@@ -28,22 +28,21 @@ h1 {
 }
 
 .container {
-  background: rgba(0, 0, 0, 0.523);
+  background: #2F4858;
   border-radius: 10px;
-  color: white;
+  color: #FFFFFF;
   display: flex;
   justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 25px;
   margin-bottom: 50px;
-  opacity: 88%;
   padding: 50px;
 }
 
 .gold {
   background-color: #F28B01;
-  color: white;
+  color: #FFFFFF;
   text-transform: uppercase;
 }
 
