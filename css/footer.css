@@ -1,11 +1,10 @@
 /*footer*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-}
-
-.bottom-page {
-  text-align: center;
+  font-family: 'Nunito', sans-serif;
 }
 
 .social-media {
@@ -17,6 +16,16 @@
 
 .newsletter{
   padding: 30px;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
+}
+
+.mentions {
+  list-style: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -26,13 +35,9 @@
   .social-media {
     font-size: 45px;
   }
-  .line2 {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 20px;
-  }
   .copyright {
-    margin-left: 25px;  
+    text-align: center;
+    font-size: 10px;
   }
 }
 
@@ -46,18 +51,48 @@
   }
   button {
     font-size: 20px;
-  }
-  button:hover {
-    background-color: rgba(242, 139, 1, 0.9);
-    color: white;
-  }
-  .line2 {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 20px;
+    .coolBeans
+  border 2px solid currentColor
+  border-radius 3rem
+  color yellow
+  font-family roboto
+  font-size 4rem
+  font-weight 100
+  overflow hidden
+  padding 1rem 2rem
+  position relative
+  text-decoration none
+  transition .2s transform ease-in-out
+  will-change transform
+  z-index 0
+  
+  &::after
+    background-color yellow
+    border-radius 3rem
+    content: ''
+    display block
+    height 100%
+    width 100%
+    position absolute
+    left 0
+    top 0
+    transform translate(-100%, 0) rotate(10deg)
+    transform-origin top left
+    transition .2s transform ease-out
+    will-change transform
+    z-index -1
+    
+  &:hover::after
+    transform translate(0, 0)
+    
+  &:hover
+    border 2px solid transparent
+    color indigo
+    transform scale(1.05)
+    will-change transform
   }
   .copyright {
-    font-size: 10px;
-    margin-left: 350px; 
+    font-size: 15px;
+    text-align: center;
   }
 }
