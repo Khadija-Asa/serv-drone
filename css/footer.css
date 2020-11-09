@@ -13,23 +13,25 @@
   font-size: 25px;
   padding: 2px;
   text-align: center;
+  margin-top: 100px;
 }
 
 .newsletter{
-  padding: 30px;
+  padding: 10px;
+  margin: 30px;
+  line-height: 40px;
+}
+
+.copyright {
+  font-size: 10px;
 }
 
 @media only screen and (min-width: 768px) {
   footer {
-    font-size: 25px;
+    font-size: 20px;
   }
   .social-media {
-    font-size: 45px;
-  }
-  .line2 {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 20px;
+    font-size: 35px;
   }
   .copyright {
     margin-left: 25px;  
@@ -38,24 +40,17 @@
 
 @media only screen and (min-width: 992px) {
   footer {
-    font-size: 30px;
+    font-size: 25px;
   }
   .social-media {
-    font-size: 55px;
-  }
-  button {
-    font-size: 20px;
-  }
-  button:hover {
-    background-color: rgba(242, 139, 1, 0.9);
-    color: white;
-  }
-  .line2 {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 20px;
+    margin-top: 100px;
+    font-size: 45px;
   }
   .copyright {
-    margin-left: 300px;  
+  font-size: 15px;
+  text-align: center;
+  }
+  .mentions{
+  font-size: 20px;
   }
 }
