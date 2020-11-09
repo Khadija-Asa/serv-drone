@@ -5,6 +5,10 @@
 	padding: 0;
 }
 
+header {
+	background: center / cover no-repeat url('/images/Header.png');
+}
+
 .button_list {
 	display: flex;
 	flex-direction: row;

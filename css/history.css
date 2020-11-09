@@ -6,13 +6,9 @@
 }
 
 
-.header_home-history {
+header {
 	background: center / cover no-repeat url('../images/drone_mountain.jpg');
-	width: 100%;
-	z-index: 1;
-  height: 650px;
 }
-
 
 section {
 	width: 90%;

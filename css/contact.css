@@ -3,11 +3,8 @@
   font-family: 'Libre Franklin';
 }
 
-.header_home-contact {
-	background: center / cover no-repeat url('../images/service_drone.jpg');
-	width: 100%;
-	z-index: 1;
-  height: 650px;
+header {
+	background: center / cover no-repeat url('/images/Header.png');
 }
 
 .big {
