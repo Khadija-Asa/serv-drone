@@ -3,6 +3,10 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+header {
+	background: center / cover no-repeat url('/images/Header.png');
+}
+
 h1,
 p {
   text-align: justify;

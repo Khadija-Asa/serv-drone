@@ -4,10 +4,10 @@
 }
 
 .header_home-contact {
-	background: center / cover no-repeat url(/images/service_drone.jpg);
+	background: center / cover no-repeat url('/images/Header.png');
 	width: 100%;
 	z-index: 1;
-  height: 650px;
+  height: 700px;
 }
 
 .big {
