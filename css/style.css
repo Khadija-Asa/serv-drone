@@ -13,6 +13,18 @@ header {
 	background: center / cover no-repeat url('../images/Header.png');
 }
 
+.container-header {
+  background-color: rgba(0, 0, 0, 0.16);
+  bottom: 200px;
+  color: #F28B01;
+  font-weight: bold;
+  font-size: 20px;
+  height: 120px;
+  padding: 20px;
+  position: absolute;
+  width: 20%;
+}
+
 .presentation,
 .product-one,
 .product-two,
