@@ -12,11 +12,13 @@
   font-size: 25px;
   padding: 2px;
   text-align: center;
+  margin-top: 100px;
 }
 
 .newsletter{
-  padding: 30px;
-  text-align: center;
+  padding: 10px;
+  margin: 30px;
+  line-height: 40px;
 }
 
 .copyright {
@@ -30,10 +32,10 @@
 
 @media only screen and (min-width: 768px) {
   footer {
-    font-size: 25px;
+    font-size: 20px;
   }
   .social-media {
-    font-size: 45px;
+    font-size: 35px;
   }
   .copyright {
     text-align: center;
@@ -43,56 +45,17 @@
 
 @media only screen and (min-width: 992px) {
   footer {
-    font-size: 20px;
-    padding-top: 60px; 
+    font-size: 25px;
   }
   .social-media {
-    font-size: 30px;
-  }
-  button {
-    font-size: 20px;
-    .coolBeans
-  border 2px solid currentColor
-  border-radius 3rem
-  color yellow
-  font-family roboto
-  font-size 4rem
-  font-weight 100
-  overflow hidden
-  padding 1rem 2rem
-  position relative
-  text-decoration none
-  transition .2s transform ease-in-out
-  will-change transform
-  z-index 0
-  
-  &::after
-    background-color yellow
-    border-radius 3rem
-    content: ''
-    display block
-    height 100%
-    width 100%
-    position absolute
-    left 0
-    top 0
-    transform translate(-100%, 0) rotate(10deg)
-    transform-origin top left
-    transition .2s transform ease-out
-    will-change transform
-    z-index -1
-    
-  &:hover::after
-    transform translate(0, 0)
-    
-  &:hover
-    border 2px solid transparent
-    color indigo
-    transform scale(1.05)
-    will-change transform
+    margin-top: 100px;
+    font-size: 45px;
   }
   .copyright {
-    font-size: 15px;
-    text-align: center;
+  font-size: 15px;
+  text-align: center;
+  }
+  .mentions{
+  font-size: 20px;
   }
 }
