@@ -1,6 +1,8 @@
 * {
-  font-family: 'Franklin Gothic';
+  font-family: 'Nunito', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 main {
   background-color: #FFF7ED;
@@ -145,6 +147,7 @@ h2 {
   .presentation img {
   width: 200%;
   padding-right: 45px;
+  padding-top: 0;
   }
   .title {
   padding-left: 55px;

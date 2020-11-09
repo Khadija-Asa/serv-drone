@@ -1,10 +1,11 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 header {
 	background: center / cover no-repeat url('../images/drone_mountain.jpg');

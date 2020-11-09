@@ -19,7 +19,7 @@
 .newsletter{
   padding: 10px;
   margin: 30px;
-  line-height: 40px;
+  text-align: center;
 }
 
 .copyright {
@@ -40,7 +40,6 @@
     font-size: 28px;
   }
   .copyright {
-    text-align: center;
     font-size: 11px;
   }
 }
@@ -54,6 +53,5 @@
   }  
   .copyright {
     font-size: 12px;
-    text-align: center;
   }
 }

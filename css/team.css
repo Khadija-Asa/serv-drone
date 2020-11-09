@@ -2,7 +2,10 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'Nunito', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 header {
 	background: center / cover no-repeat url('../images/service_three_ship.png');
