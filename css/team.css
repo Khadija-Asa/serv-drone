@@ -47,7 +47,7 @@ h3 {
 .background-gold {
 	background-color: #F28B01;
 	color: white;
-  padding: 3% 0;
+  padding: 1% 0;
   width: 100%;
   text-align: center;
 }
@@ -59,6 +59,7 @@ h3 {
 
 .team {
 	padding: 30px;
+	padding-top: 50px;
 }
 
 .partners {
@@ -132,5 +133,10 @@ h3 {
 		flex-direction: row;
 		justify-content: space-around;
 	}
-}
 
+	.team {
+		padding-top: 90px;
+		padding-bottom: 90px;
+		width: 300px;
+	}
+}
