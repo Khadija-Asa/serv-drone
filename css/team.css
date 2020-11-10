@@ -52,25 +52,14 @@ h3 {
   text-align: center;
 }
 
-.images {
+.image {
 	display: flex;
-	justify-content: center;
-	overflow: hidden
+	flex-direction: column;
 }
 
 .team {
 	padding: 30px;
 	padding-top: 50px;
-}
-
-.team:first-child {	
-	transition-duration: 1s;
-	margin-right: 100%;
-}
-
-.team:last-child {
-	transition-duration: 1s;
-	margin-left: 100%;
 }
 
 .partners {
@@ -84,10 +73,6 @@ h3 {
   border-radius: 3%;
   box-shadow: 2px 5px 4px #AAAAAA;
 	margin: 80px;
-}
-
-.drone:hover {
-    box-shadow: 10px 10px 4px #AAAAAA
 }
 
 .image-drone {
@@ -147,11 +132,5 @@ h3 {
 	.partners {
 		flex-direction: row;
 		justify-content: space-around;
-	}
-
-	.team {
-		padding-top: 90px;
-		padding-bottom: 90px;
-		width: 300px;
 	}
 }
