@@ -114,6 +114,17 @@ h2 {
   height: 130px;
   margin-top: 90px;
   }
+  .container-header {
+  background-color: rgba(0, 0, 0, 0.16);
+  bottom: 200px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  height: 120px;
+  padding: 20px;
+  position: absolute;
+  width: 20%;
+  }
   .vertical-line-two {
   height: 180px;
   margin-top: 93px;
@@ -145,9 +156,20 @@ h2 {
   padding: 100px 20px 50px 50px;
   }
   .presentation img {
-  width: 200%;
+  width: 35%;
   padding-right: 45px;
   padding-top: 0;
+  }
+  .container-header {
+  background-color: rgba(0, 0, 0, 0.16);
+  bottom: 200px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  height: 120px;
+  padding: 20px;
+  position: absolute;
+  width: 20%;
   }
   .title {
   padding-left: 55px;
