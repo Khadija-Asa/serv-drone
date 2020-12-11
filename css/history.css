@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 header {
-	background: center / cover no-repeat url('/images/Header.png');
+	background: center / cover no-repeat url('../images/Header.png');
 }
 
 section {
